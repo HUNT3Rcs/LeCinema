@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+	
+	<title> Infos Cinéma</title>
+	<link rel="stylesheet" href="Css.css">
+</head>
+<body>
+	<header class="header">
+        <div class="container">
+			<a href= "Accueil.html">
+		   <div class="logo" >Le Cinéma</div>
+            <nav class="menu">
+				
+				<a href= "Liste des films.html">
+					Liste des films
+                </a>
+				
+                <a href= "infos cine.html">   
+                    Infos cinéma
+                </a>
+				
+                <a href= <!-- " Lien page OFFRE " -->                         
+                    Offre
+                </a>
+				
+                <a href=<!-- " Lien page NEWS " --> 
+                    News
+                </a>
+				          
+            </nav>
+            <form className="searchBox" onSubmit={search}>
+				<input
+					type="text"
+					className="search"
+					placeholder="Rechercher"
+					onChange={e = setSearchValue(e.target.value)} 
+				>
+			</form>
+	</header>
+	
+	<img src="image/acc.png"  width="1300" height="731"/>
+	
+	
+<body>
+</html>

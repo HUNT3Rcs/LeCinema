@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+	
+	<title> Liste des films</title>
+	<link rel="stylesheet" href="Css.css">
+</head>
+<header class="header">
+        <div class="container">
+			<a href= "Accueil.html">
+		   <div class="logo" >Le Cinéma</div>
+            <nav class="menu">
+				
+				<a href= "Liste des films.html">
+					Liste des films
+                </a>
+				
+                <a href= "infos cine.html">      
+                    Infos cinéma
+                </a>
+				
+                <a href= <!-- " Lien page OFFRE " -->                         
+                    Offre
+                </a>
+				
+                <a href=<!-- " Lien page NEWS " --> 
+                    News
+                </a>
+				          
+            </nav>
+            <form className="searchBox" onSubmit={search}>
+				<input
+					type="text"
+					className="search"
+					placeholder="Rechercher"
+					onChange={e = setSearchValue(e.target.value)} 
+				>
+			</form>
+	</header>
+
+<body>
+	<h1 style="color:white; font-size: 300%; text-align:center;"> <b>Liste des films </b> </h1>
+		<figure>
+			<a href="uncharted.html"><img src="image/uncharted.jpg" alt="L'image ne peut s'afficher" width="300" height="400"/>
+				<figcaption> <a style="color:white;font-size: 150%" href="uncharted.html">Uncharted</a> </figcaption>
+		</figure>
+</body>
+</html>
